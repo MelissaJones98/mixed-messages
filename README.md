@@ -5,7 +5,7 @@
 ###### **Description:**
 
 Codecademy Portfolio Project. Message generator program. Every time a user runs the program they will get a new randomised output.
-Upon running the program a unqiue message will be generated comprised of three different components selected at random from three different arrays.
+Upon running the program a unique message will be generated comprised of three different components selected at random from three different arrays.
 
 
 ###### **Run Instructions:**
