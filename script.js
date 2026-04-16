@@ -9,7 +9,6 @@ function generateMessage() {
 
     let message = `The ${characters[c]} ${verbs[v]} "${magicalMessages[m]}".`;
     console.log(message);
-    console.log(message);
     return message;
 }
 

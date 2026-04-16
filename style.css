@@ -1,0 +1,78 @@
+body {
+    background-color: midnightblue;
+    color: gold;
+    font-family: "Indie Flower";
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background-color: gold;
+    color: rgb(38, 38, 122);
+    border: 5px solid rgb(201, 171, 4);
+    border-radius: 0.5rem;
+    font-family: "Indie Flower";
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(238, 218, 103);
+}
+
+.btn:active {
+    background-color: rgb(201, 171, 4);
+    border: 5px solid rgb(148, 126, 2);
+}
+
+/* mobile viewport */
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    p {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 20px;
+        margin: 10px;
+        width: 106px;
+    }
+}
+
+/* tablet viewport */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    .btn {
+        font-size: 30px;
+        margin: 20px;
+        width: 140px;
+    }
+}
+
+/* desktop viewport */
+@media only screen and (min-width: 1024px) {
+    h1 {
+        font-size: 100px;
+    }
+    
+    p {
+        font-size: 50px;
+    }
+
+    .btn {
+        font-size: 50px;
+        margin: 40px;
+        width: 220px;
+    }
+}
