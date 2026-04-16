@@ -6,7 +6,7 @@ function generateMessage() {
     let c = Math.floor(Math.random() * characters.length);
     let v = Math.floor(Math.random() * verbs.length);
     let m = Math.floor(Math.random() * magicalMessages.length);
-    
+
     let message = `The ${characters[c]} ${verbs[v]} "${magicalMessages[m]}".`;
     console.log(message);
     console.log(message); // this is a comment 
