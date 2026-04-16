@@ -7,7 +7,18 @@ function generateMessage() {
     let v = Math.floor(Math.random() * verbs.length);
     let m = Math.floor(Math.random() * magicalMessages.length);
     
-    console.log(`The ${characters[c]} ${verbs[v]} "${magicalMessages[m]}".`);
+    let message = `The ${characters[c]} ${verbs[v]} "${magicalMessages[m]}".`;
+    console.log(message);
+    return message;
+}
+
+function displayMessage() {
+    let message = generateMessage();
+    document.getElementById("message").innerHTML = message;
+}
+
+function resetMessage() {
+    document.getElementById("message").innerHTML = "Your message will display here";
 }
 
 generateMessage();
