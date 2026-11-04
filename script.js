@@ -1,5 +1,5 @@
 const magicalMessages = ["Abracadabra", "Hocus Pocus", "Open Sesame", "Shazam", "Alakazam", "Accio", "Bibbidi-Bobbidi-Boo"];
-const characters = ["witch", "wizard", "conjourer", "fairy", "sorcerer"];
+const characters = ["witch", "wizard", "conjurer", "fairy", "sorcerer"];
 const verbs = ["said", "shouted", "exclaimed", "whispered", "cried", "sang"];
 
 function generateMessage() {
