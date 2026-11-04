@@ -11,12 +11,26 @@ Upon running the program a unique message will be generated comprised of three d
 
 ## How to Use
 **Option 1: Node**
+
+Prints one random message to the terminal. Requires Node.js.
 ```
 node ./script.js
 ```
 
 **Option 2: HTML**
-Run index.html in browser.
+
+Open index.html in a browser, then:
+
+* Select **Generate** to display a new random message
+* Select **Reset** to restore the placeholder text
+
+
+###### **Project Structure:**
+
+* `index.html`: page content and buttons
+* `script.js`: message arrays, generation logic and button functions
+* `style.css`: page styling, with font and button sizes for mobile, tablet and desktop screens
+* `images/favicon.ico`: browser tab icon
 
 ## Technologies
 - HTML
